@@ -12,7 +12,7 @@ import java.net.Socket;
 
 /**
  *
- * @author Gábor
+ * @author BenjiHtt
  */
 
 
@@ -99,7 +99,7 @@ public class chat_server extends javax.swing.JFrame {
           msgout = msg_text.getText().trim();
           dout.writeUTF(msgout); //sendding the server msg to the client. 
           
-          msg_area.setText(msg_area.getText().trim()+"\n server:"+ msgout);  // msg
+          //msg_area.setText(msg_area.getText().trim()+"\n server:"+ msgout);  // msg
         }catch(Exception e){
         //handle the exepetion here
         
